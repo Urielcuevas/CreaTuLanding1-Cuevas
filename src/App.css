@@ -1,86 +1,17 @@
-
-/*barra de navegacion*/
-.navbar {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: black;
-  color: white;
-  padding: 15px 20px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-}
-
-.title-container {
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.categories {
-  display: flex;
-  gap: 15px;
-}
-
-.categories a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-.carrito {
-  display: flex;
-  align-items: center;
+.card-body {
   position: relative;
-  right: 80px;
 }
 
-.carrito-icon {
-  font-size: 24px;
-  cursor: pointer;
+button {
+  margin-top: 10px;
 }
 
-.carrito-badge {
-  position: absolute;
-  top: -5px;
-  right: -20px;
-  background-color: red;
-  color: white;
-  font-size: 12px;
-  padding: 3px 6px;
-  border-radius: 50%;
+button:hover {
+  background-color: #007bff;
 }
 
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .categories {
-    margin-top: 10px;
-  }
-
-  .carrito-widget {
-    margin-top: 10px;
-  }
-
-  .carrito-widget {
-    display: flex;
-    align-items: center;
-    position: relative;
-    right: 0px;
-    margin-top: 20px;
-  }
+.mt-3 {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
 }
-
-
